@@ -1,0 +1,13 @@
+Project Description
+I created a game, called Arcticventure in which you try to solve 4 different puzzles as fast as possible. The first puzzle is a game similar to wordle, the second is a platform, the third is a maze, and the last one is one where you need to match cards
+
+How to run the project
+Ensure you have all the files and assets downloaded. The main file that should be run is the python file called main. The character moves with W A S D keys, and once the game starts there is a countdown from 3 and then the player will appear
+
+How to install any needed libraries
+The libraries needed for this project are pygame, pytmx and tkinter. To download them open command prompt or terminal and run pip3 install pygame, pip3 install pytmx and pip3 install tinter
+
+Shortcut commands
+Click esc to open the menu and go back to the beginning at any time.
+To skip through certain levels, you can just change the variable self.passed to True in the screen class in the main file, and this will allow you to move to the next level without solving this one. For the card matching puzzle, you can change the self.matches in the cards file to 8, and this allows you to skip forward as well
+
